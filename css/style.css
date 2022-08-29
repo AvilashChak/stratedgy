@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(/assets/Mask\ Group\ 106.png);
+    background-position: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.container-fluid {
+    height: 100vh;
+    width: 100vw;
+}
+nav {
+    position: fixed;
+    top: 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    height: 60px;
+    z-index: 999;
+}
+nav img {
+    width: 150px;
+    height: 28px;
+}
+.content_div {
+    padding-top: 120px;
+}
+.naija_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.font_rotate {
+    font-size: 42px;
+    font-weight: 700;
+    transform: rotate(350deg);
+    line-height: .6;
+}
+.bg_frame {
+    background: url(/assets/Path\ 65497.svg);
+    width: 363px;
+    height: 205px;
+    padding: 4px 8px;
+}
+.bg_frame iframe {
+    width: 348px;
+    height: 197px;
+}
+.input_bg input {
+    background: url(/assets/Group\ 335.svg);
+    width: 99.1%;
+    border: 0;
+    border-radius: unset;
+    height: 51px;
+}
+.input_bg .form-control:focus {
+    background-color: unset !important;
+    border-color: unset !important;
+    box-shadow: unset !important;
+}
+.otp_btn {
+    border: none;
+    background: none;
+    color: #8BC62C;
+}
+.input_check input {
+    background: url(/assets/Group\ 334.svg);
+}
+.bottle_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.sub_btn {
+    width: 137px;
+    height: 70px;
+    background: url(/assets/cta-new-copy-full.png);
+    position: relative;
+}
+.sub_btn button {
+    background: unset;
+    position: absolute;
+    top: 18px;
+    left: 34px;
+    font-size: 22px;
+}
+.pro_img img {
+    width: 100%;
+}
+.input_check img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.pos_rel {
+    position: relative;
+}
+.pos_rel .topline_1 {
+    position: absolute;
+    top: 169px;
+    right: 0;
+}
+.pos_rel .naija_img {
+    position: absolute;
+    top: 50px;
+    left: -105px;
+}
+.pos_rel .bottomline_1 {
+    position: absolute;
+    top: 440px;
+    left: 75px;
+}
+.pos_rel .topline_2 {
+    position: absolute;
+    top: 675px;
+}
+.pos_rel .bottle_img {
+    position: absolute;
+    top: 550px;
+    z-index: 9;
+}
+.pos_rel .topline_3 {
+    position: absolute;
+    top: 1100px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    line-height: .8;
+}
+.pos_rel .bg_frame {
+    position: absolute;
+    top: 1275px;
+}
+.pos_rel .topline_4 {
+    position: absolute;
+    top: 1600px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    line-height: .8;
+}
+.pos_rel .pro_img {
+    position: absolute;
+    top: 1700px;
+}
+.pos_rel .topline_5 {
+    position: absolute;
+    top: 2300px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 42px;
+    text-align: center;
+    line-height: .8;
+    left: 50px;
+}
+.pos_rel .form_1 {
+    position: absolute;
+    top: 2500px;
+}
+.pos_rel .form_2 {
+    position: absolute;
+    top: 3000px;
+}
